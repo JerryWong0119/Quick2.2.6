@@ -5,7 +5,7 @@ NS_CC_EXTRA_BEGIN
 
 bool CCNetwork::isLocalWiFiAvailable(void)
 {
-    CCLOG("CCNetwork::isLocalWiFiAvailable() - not support this platform.");
+    //CCLOG("CCNetwork::isLocalWiFiAvailable() - not support this platform.");
     return true;
 }
 

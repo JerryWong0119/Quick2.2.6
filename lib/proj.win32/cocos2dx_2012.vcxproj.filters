@@ -340,6 +340,9 @@
     <Filter Include="cocos2d-x\scripting\lua\lua">
       <UniqueIdentifier>{a749176d-bd4d-4aae-9e2c-33df575211e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cocos2d-x\extensions\spine">
+      <UniqueIdentifier>{64a55c0e-91e1-4f9b-a86c-e87b06b8f7d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\CCLuaEngine.cpp">
@@ -1664,6 +1667,105 @@
     </ClCompile>
     <ClCompile Include="..\cocos2d-x\scripting\lua\lua\lua-5.1.5\src\print.c">
       <Filter>cocos2d-x\scripting\lua\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\AnimationStateData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Atlas.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\AtlasAttachmentLoader.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Attachment.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\AttachmentLoader.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\BoundingBoxAttachment.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\EventData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\extension.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\IkConstraint.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\IkConstraintData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Json.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\MeshAttachment.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\PolygonBatch.cpp">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\RegionAttachment.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Skeleton.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonAnimation.cpp">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonBounds.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonJson.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonRenderer.cpp">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Skin.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spAnimation.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spAnimationState.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spBone.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spBoneData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spEvent.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spine-cocos2dx.cpp">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spSlot.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spSlotData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\TransformConstraint.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\TransformConstraintData.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\extensions\spine\WeightedMeshAttachment.c">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dSpine.cpp">
+      <Filter>cocos2d-x\scripting\lua\cocos2dx_support</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -3301,6 +3403,108 @@
     </ClInclude>
     <ClInclude Include="..\cocos2d-x\cocos2dx\platform\third_party\win32\libpng\pnglibconf.h">
       <Filter>cocos2d-x\cocos2dx\platform\third_party\win32\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\AnimationStateData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Atlas.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\AtlasAttachmentLoader.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Attachment.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\AttachmentLoader.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\BoundingBoxAttachment.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\EventData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\extension.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\IkConstraint.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\IkConstraintData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Json.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\MeshAttachment.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\PolygonBatch.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\RegionAttachment.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Skeleton.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonAnimation.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonBounds.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonJson.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonRenderer.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Skin.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spAnimation.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spAnimationState.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spBone.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spBoneData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spEvent.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spine.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spine-cocos2dx.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spSlot.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spSlotData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\TransformConstraint.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\TransformConstraintData.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\extensions\spine\WeightedMeshAttachment.h">
+      <Filter>cocos2d-x\extensions\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dSpine.h">
+      <Filter>cocos2d-x\scripting\lua\cocos2dx_support</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

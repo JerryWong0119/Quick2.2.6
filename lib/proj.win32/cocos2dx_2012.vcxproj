@@ -321,6 +321,38 @@
     <ClCompile Include="..\cocos2d-x\extensions\network\WebSocket.cpp" />
     <ClCompile Include="..\cocos2d-x\extensions\proj.win32\Win32InputBox.cpp" />
     <ClCompile Include="..\cocos2d-x\extensions\ProjectConfig\SimulatorConfig.cpp" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\AnimationStateData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Atlas.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\AtlasAttachmentLoader.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Attachment.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\AttachmentLoader.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\BoundingBoxAttachment.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\EventData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\extension.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\IkConstraint.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\IkConstraintData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Json.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\MeshAttachment.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\PolygonBatch.cpp" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\RegionAttachment.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Skeleton.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonAnimation.cpp" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonBounds.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonJson.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\SkeletonRenderer.cpp" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\Skin.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spAnimation.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spAnimationState.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spBone.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spBoneData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spEvent.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spine-cocos2dx.cpp" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spSlot.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\spSlotData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\TransformConstraint.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\TransformConstraintData.c" />
+    <ClCompile Include="..\cocos2d-x\extensions\spine\WeightedMeshAttachment.c" />
     <ClCompile Include="..\cocos2d-x\external\chipmunk\cocos2dx_support\CCPhysicsBody.cpp" />
     <ClCompile Include="..\cocos2d-x\external\chipmunk\cocos2dx_support\CCPhysicsDebugNode.cpp" />
     <ClCompile Include="..\cocos2d-x\external\chipmunk\cocos2dx_support\CCPhysicsShape.cpp" />
@@ -471,6 +503,7 @@
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dAssetsManager.cpp" />
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dDragonBones.cpp" />
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dFilters.cpp" />
+    <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dSpine.cpp" />
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocoStudio.cpp" />
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\lua_cocos2dx_cocostudio_manual.cpp" />
     <ClCompile Include="..\cocos2d-x\scripting\lua\cocos2dx_support\lua_cocos2dx_extensions_manual.cpp" />
@@ -969,6 +1002,39 @@
     <ClInclude Include="..\cocos2d-x\extensions\network\WebSocket.h" />
     <ClInclude Include="..\cocos2d-x\extensions\proj.win32\Win32InputBox.h" />
     <ClInclude Include="..\cocos2d-x\extensions\ProjectConfig\SimulatorConfig.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\AnimationStateData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Atlas.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\AtlasAttachmentLoader.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Attachment.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\AttachmentLoader.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\BoundingBoxAttachment.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\EventData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\extension.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\IkConstraint.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\IkConstraintData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Json.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\MeshAttachment.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\PolygonBatch.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\RegionAttachment.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Skeleton.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonAnimation.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonBounds.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonJson.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\SkeletonRenderer.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\Skin.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spAnimation.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spAnimationState.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spBone.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spBoneData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spEvent.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spine-cocos2dx.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spine.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spSlot.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\spSlotData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\TransformConstraint.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\TransformConstraintData.h" />
+    <ClInclude Include="..\cocos2d-x\extensions\spine\WeightedMeshAttachment.h" />
     <ClInclude Include="..\cocos2d-x\external\chipmunk\cocos2dx_support\CCPhysicsBody.h" />
     <ClInclude Include="..\cocos2d-x\external\chipmunk\cocos2dx_support\CCPhysicsDebugNode.h" />
     <ClInclude Include="..\cocos2d-x\external\chipmunk\cocos2dx_support\CCPhysicsShape.h" />
@@ -1029,6 +1095,7 @@
     <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dAssetsManager.h" />
     <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dDragonBones.h" />
     <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dFilters.h" />
+    <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocos2dSpine.h" />
     <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\LuaCocoStudio.h" />
     <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\lua_cocos2dx_cocostudio_manual.h" />
     <ClInclude Include="..\cocos2d-x\scripting\lua\cocos2dx_support\lua_cocos2dx_extensions_manual.h" />
@@ -1133,7 +1200,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_LUA_ENGINE_ENABLED=1;CC_CURL_ENABLED=1;CC_JPEG_ENABLED=1;CC_TIFF_ENABLED=1;CC_WEBP_ENABLED=1;CC_PHYSICS_ENABLED=1;CC_SQLITE_ENABLED=1;CC_CCSTUDIO_ENABLED=1;CC_CCB_ENABLED=1;CC_DRAGONBONES_ENABLED=1;CC_FILTERS_ENABLED=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_LUA_ENGINE_ENABLED=1;CC_CURL_ENABLED=1;CC_JPEG_ENABLED=1;CC_TIFF_ENABLED=1;CC_WEBP_ENABLED=1;CC_PHYSICS_ENABLED=1;CC_SQLITE_ENABLED=1;CC_CCSTUDIO_ENABLED=1;CC_CCB_ENABLED=1;CC_DRAGONBONES_ENABLED=1;CC_FILTERS_ENABLED=1;CC_SPINE_ENABLED=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\kazmath\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\support\tinyxml2;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\curl;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\iconv;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libjpeg;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libpng;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libtiff;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libwebp;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\pthread;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\zlib;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\CocosDenshion\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\CocosDenshion\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\cocos2dx_support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\tolua;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua\lua-5.1.5\src;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions\cjson;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions\filesystem;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions\lpack;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions\lsqlite3;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions\socket;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua_extensions\zlib;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCControlExtension;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCEditBox;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCScrollView;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\AssetsManager;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CCBReader;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\DragonBones;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\network;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Action;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\animation;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\datas;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\display;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\external_tool;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\utils;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Components;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Json;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Reader;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\libwebsockets\win32\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\libwebsockets\win32\include\win32helpers;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\chipmunk\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\chipmunk\luabinding;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\chipmunk\cocos2dx_support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\luaproxy;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\luaproxy\tolua;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\luaproxy\ui;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\extra;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\extra\crypto;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\extra\luabinding;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\extra\native;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\external\extra\network;$(QUICK_COCOS2DX_ROOT)\lib\ccos2d-x\external\extra\platform\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4251;4068;4244;4800</DisableSpecificWarnings>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>

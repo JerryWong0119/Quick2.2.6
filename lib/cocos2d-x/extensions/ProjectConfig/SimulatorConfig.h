@@ -44,7 +44,7 @@ public:
 	, m_scriptFile("$PROJDIR/scripts/main.lua")
     , m_writablePath("")
     , m_packagePath("")
-    , m_frameSize(960, 640)
+    , m_frameSize(1280, 720)
     , m_frameScale(1.0f)
     , m_showConsole(true)
     , m_loadPrecompiledFramework(true)
@@ -56,8 +56,8 @@ public:
         normalize();
     }
 
-    static const int DEFAULT_WIDTH = 640;
-    static const int DEFAULT_HEIGHT = 960;
+    static const int DEFAULT_WIDTH = 720;
+    static const int DEFAULT_HEIGHT = 1280;
 
 	bool isWelcome(void);
     void resetToWelcome(void);

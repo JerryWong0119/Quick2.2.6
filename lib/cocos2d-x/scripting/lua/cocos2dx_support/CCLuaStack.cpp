@@ -81,6 +81,10 @@ extern "C" {
 #include "LuaCocos2dFilters.h"
 #endif
 
+#if CC_SPINE_ENABLED > 0
+#include "LuaCocos2dSpine.h"
+#endif
+
 #if CC_DRAGONBONES_ENABLED > 0
 #include "LuaCocos2dDragonBones.h"
 #endif
@@ -163,6 +167,10 @@ bool CCLuaStack::init(void)
 
 #if CC_FILTERS_ENABLED > 0
     luaopen_ExtensionsFilters(m_state);
+#endif
+
+#if CC_SPINE_ENABLED > 0
+	luaopen_ExtensionsSpine(m_state);
 #endif
 
 #if CC_DRAGONBONES_ENABLED > 0
@@ -669,7 +677,7 @@ int CCLuaStack::lua_loadChunksFromZIP(lua_State *L)
 {
     if (lua_gettop(L) < 1)
     {
-        CCLOG("lua_loadChunksFromZIP() - invalid arguments");
+        CCLOG("[ C++ ] Load Chunks From ZIP: Invalid Arguments");
         return 0;
     }
 
@@ -716,7 +724,7 @@ int CCLuaStack::lua_loadChunksFromZIP(lua_State *L)
 
         if (zip)
         {
-            CCLOG("lua_loadChunksFromZIP() - load zip file: %s%s", zipFilePath.c_str(), isXXTEA ? "*" : "");
+            CCLOG("[ C++ ] Load ZIP File: %s%s", zipFilePath.c_str(), isXXTEA ? "*" : "");
             lua_getglobal(L, "package");
             lua_getfield(L, -1, "preload");
 
@@ -737,13 +745,13 @@ int CCLuaStack::lua_loadChunksFromZIP(lua_State *L)
                 }
                 filename = zip->getNextFilename();
             }
-            CCLOG("lua_loadChunksFromZIP() - loaded chunks count: %d", count);
+            CCLOG("[ C++ ] Loaded Chunks Count: %d", count);
             lua_pop(L, 2);
             lua_pushboolean(L, 1);
         }
         else
         {
-            CCLOG("lua_loadChunksFromZIP() - not found or invalid zip file: %s", zipFilePath.c_str());
+            CCLOG("[ C++ ] Not Found or Invalid ZIP File: %s", zipFilePath.c_str());
             lua_pushboolean(L, 0);
         }
 
